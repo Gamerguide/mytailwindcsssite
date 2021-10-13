@@ -1,0 +1,39 @@
+body {
+  background-color: #00ffff;
+  font-size: 40px;
+}
+.left-div {
+  background-color: red;
+  margin:4px;
+  flex-grow: 2;
+}
+.right-div {
+  background-color: red;
+  margin:4px;
+  flex-grow: 2;
+}
+
+.container {
+  border-style: groove;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+a:link {
+}
+a:hover {
+  font-size: 32px;
+  opacity: 0.9;
+} 
+audio {
+  background-color: purple;
+}
+a:visited {
+}
+button:hover{
+  background-color: yellow;
+  color:teal;
+  opacity: 0.2
+}
+
+

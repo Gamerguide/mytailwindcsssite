@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+  <head>
+    <title>My Tail Wind Website</title>
+    <link rel="icon" href="feather-16.ico" type="image/ico sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="download.png" type="image/png sizes="16x16">
+</head>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+     <style>
+.wrapper .pricing_wrapper{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 1000px;
+}
+</style>
+    <!-- Header ====================================-->
+    <div class="bg-indigo-700 p-4 flex justify-between items-center">
+      <!-- Left -->
+      <div class="flex items-center">
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-512.png"
+          width="50"
+          alt="Logo"
+          class="mr-2"
+        />
+        <a
+          href="index - Copy.html"
+          class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2"
+          >Home</a
+        >
+        <a
+          href="About Me 2.html"
+          class="inline-block p-2 text-indigo-200 hover:text-indigo-100"
+          >About</a
+        >
+        <a
+          href="contact.html"
+          class="inline-block p-2 text-indigo-200 hover:text-indigo-100"
+          >Contact</a
+        >
+      </div>
+      <!-- Right-->
+      <div class="hidden md:block">
+        <a
+          href="Sign Up 2.html"
+          class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2"
+          bg-Cyan-400
+            hover:bg-green-300 hover:text-green-800
+        >
+          Login
+        </a>
+        <a
+          href="Sign Up 2.html"
+          class="
+            inline-block
+            py-2
+            px-4
+            text-red-100
+            bg-white-800
+            hover:bg-red-300 hover:text-green-800
+            rounded
+            transition
+            ease-in
+            duration-150
+          "
+        >
+          Sign Up
+        </a>
+      </div>
+    </div>
+    <!-- Hero unit ======================================= -->
+    <div
+      class="md:flex justify-between py-20 px-10 bg-indigo-600 text-indigo-100"
+    >
+      <!--   left -->
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">
+          Welcome to Movie City!
+        </h2>
+        <p class="mb-6">There is never a sad day here!</p>
+
+        <a
+          href="About Me 2.html"
+          class="
+            inline-block
+            py-3
+            px-6
+            text-lg
+            bg-gray-400
+            text-gray-800
+            hover:bg-gray-300
+            rounded
+            mr-2
+          "
+          >Learn More</a
+        >
+        <a
+          href="https://www.disneyanimation.com/"
+          class="
+            inline-block
+            py-3
+            px-6
+            text-lg
+            bg-orange-400
+            text-orange-800
+            hover:bg-orange-300
+            rounded
+          "
+          >Get Started</a
+        >
+      </div>
+
+      <!--   right -->
+      <div class="md:w-1/2">
+        <img
+          src="AddamsFamily.jpg"
+          alt="Happiest Doggo"
+          class="w-full rounded shadow-2xl"
+        />
+      </div>
+    </div>
+    <!-- Features ===============================-->
+    <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 tex t-center">
+      <div class="mr-2 text-center">
+        <img
+          src="Minions-2.jpg"
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400 alt width="1951" height="1909"
+        />
+        <p>Minions The Rise Of Gru</p>
+      </div>
+
+      <div class="mr-2 mt-8 text-center">
+        <img
+          src="intro-import.jpg"
+          class=" mb-4 rounded border-solid border-2 border-indigo-400 width="1961" height="2314"
+        />
+        <p>Sing 2!</p>
+      </div>
+
+      <div class="mr-2 text-center">
+        <img
+          src="Luca.jpg"
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400"
+        />
+        <p>Luca!</p>
+      </div>
+
+      <div class="mr-2 mt-8 text-center">
+        <img
+          src="Raya.png"
+          class="w-full mb-4 rounded border-solid border-2 border-indigo-400"
+        />
+        <p>Raya And The Last Dragon</p>
+      </div>
+    </div>
+    
+<!-- footer + newsletter ============================== -->
+<div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+
+    <!--   left -->
+    <div class="md:w-1/2">
+  
+      <h3 class="text-lg mb-2">Join the Newsletter</h3>
+      <form class="flex">
+        <input type="email" class="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-200">
+        <button class="bg-red-300 hover:bg-red-400 text-red-800 rounded-r px-4">Join</button>
+      </form>
+       
+
+      <div class="wrapper">
+    <h1>Pricing</h1>
+  <div class="pricing_wrapper">
+     <div class="pricing_item">
+       <h3>Starter</h3>
+       <p class="money">
+         $9<br><span>per month</span>
+       </p> 
+       <a href="#" class="btn">Select Plan</a>
+     </div>
+     <div class="pricing_item">
+       <h3>Basic</h3>
+       <p class="money">
+         $28<br><span>per month</span>
+       </p>
+       <a href="#" class="btn">Select Plan</a>
+     </div>
+     <div class="pricing_item">
+       <h3>Pro</h3>
+       <p class="money">
+         $79<br><span>per month</span>
+       </p>
+       <a href="#" class="btn">Select Plan</a>
+     </div>
+     <div class="pricing_item">
+       <h3>Unlimited</h3>
+       <p class="money">
+         $140<br><span>per month</span>
+       </p>
+       <a href="#" class="btn">Select Plan</a>
+     </div>
+  
+    </div>
+  
+       <div class="flex items-center"></div>
+      <h6>Copyright &copy; David 2021 - Inc</h6>
+
+  </div>
+</div>
+</body>
+
+</html>
